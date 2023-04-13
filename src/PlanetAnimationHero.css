@@ -1,0 +1,73 @@
+.planets-wrapper {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  border: 2px solid #212121;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 150px;
+}
+
+.planets-wrapper-skewed {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  border: 2px solid #212121;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 150px;
+  transform: skew(-30deg, -30deg);
+}
+
+.rotating-planet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #212121;
+  border-radius: 50%;
+  margin: auto;
+  animation: circle 7s linear infinite;
+}
+
+.rotating-planet-skewed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #212121;
+  border-radius: 50%;
+  margin: auto;
+  animation: skewed 7s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-290px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-290px) rotate(-360deg);
+  }
+}
+
+@keyframes skewed {
+  0% {
+    transform: rotate(0deg) translate(-290px) rotate(0deg) skew(30deg, 30deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-290px) rotate(-360deg)
+      skew(30deg, 30deg);
+  }
+}

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import Content from "./Content";
+import Navbar from "./Navbar";
+import Projects from "./Projects";
 
 function App() {
+  const [elements, setElements] = useState([
+    { id: 0, name: "Home", selected: true },
+    { id: 1, name: "Projects", selected: false },
+    { id: 2, name: "CV", selected: false },
+    { id: 3, name: "Gallery", selected: false },
+  ]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar elements={elements} setElements={setElements} />
+      {elements.find((el) => el.id === 0 && el.selected === true) ? (
+        <Content />
+      ) : null}
+      {elements.find((el) => el.id === 1 && el.selected === true) ? (
+        <Projects />
+      ) : null}
     </div>
   );
 }
