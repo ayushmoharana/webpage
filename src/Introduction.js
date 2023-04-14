@@ -5,6 +5,7 @@ export default function Introduction() {
   const [text, count] = useTypewriter({
     words: [
       "Hi! I am Ayush Moharana",
+	  "Ph.D. Student",
       "Nicolaus Copernicus Astronomical Center",
     ],
     loop: true,

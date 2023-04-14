@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 export default function Navbar({ elements, setElements }) {
   const quote =
-    "Only two things are infinite, the universe and human stupidity, and I am not sure about the former";
+    "Astronomy, as nothing else can do, teaches men humility - Arthur C. Clarke";
 
   const handleNavChange = (navId) => {
     switch (navId) {
