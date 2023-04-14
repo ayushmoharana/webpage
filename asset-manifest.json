@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/webpage/static/css/main.e64247ce.css",
+    "main.js": "/webpage/static/js/main.c9fefd27.js",
+    "static/media/SpaceGrotesk-Regular.ttf": "/webpage/static/media/SpaceGrotesk-Regular.67fa42510e26f5d4733d.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/webpage/static/media/SpaceGrotesk-Bold.96e001703fcc4898de0e.ttf",
+    "static/media/Hot.svg": "/webpage/static/media/Hot.5d2b4f16878c72c7c990cb4d705a0d93.svg",
+    "static/media/Compact.svg": "/webpage/static/media/Compact.7ed8feeead9f615f8df2c1e6143c1ac9.svg",
+    "static/media/Eclipse.svg": "/webpage/static/media/Eclipse.bed2ad73f7f95f75f180713ddd79fc36.svg",
+    "index.html": "/webpage/index.html",
+    "main.e64247ce.css.map": "/webpage/static/css/main.e64247ce.css.map",
+    "main.c9fefd27.js.map": "/webpage/static/js/main.c9fefd27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e64247ce.css",
+    "static/js/main.c9fefd27.js"
+  ]
+}
