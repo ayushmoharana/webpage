@@ -1,0 +1,6 @@
+The Galactic Globular Clusters (GGCs) present in the galactic halo are old and metal-poor. This has lead to hotter populations of stars being present in these GGCs. These hot stars are bright in UV and belong to the evolved stages of stellar evolution, i.e, Horizontal Branch (HB), Asymptotic Giant Branch (AGB) and Blue Straggler Stars (BSS). 
+
+For this work that started during my Masters’, I use observations from the Ultraviolet Imaging Telescope  (link<http://www.iiap.res.in/uvit.htm><UVIT>) which is onboard the space-observatory ASTROSAT and is operated by the Indian Space Research Organisation. 
+
+
+

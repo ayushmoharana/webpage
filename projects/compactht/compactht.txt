@@ -1,0 +1,16 @@
+Compact Hierarchical Triples (CHT) are systems with the tertiary star orbiting the inner binary in an orbit shorter than 1000 days. These systems were thought to be rare before, but with Kepler  and Transiting Exoplanet Survey Satellite (TESS) we have been discovering more of these systems. CHT with an eclipsing binary as its inner binary can help us extract the orbital, stellar and atmospheric properties of all the stars in the system. Using these parameters, I constrain the evolution of these stars and also check their future dynamical evolution. I work on low-mass CHTs (atleast 2 companions are near 1 solar mass) as they could help help draw parallels to formation and evolution of brown-dwarfs and exoplanets.
+To acheive this, I use multiple analyses and techniques in my work:
+1. lightcurve modelling (PHOEBE2, JKTEBOP)
+2. radial velocity extraction (TODCOR, broadening functions)
+3. radial velocity modelling (PHOEBE2, Radvel)
+4. spectral disentangling (fd3)
+5. spectral analysis (iSpec)
+6. Isochrone fitting
+7. Numerical integration of orbital dynamics
+
+This work is currently funded by National Science Center (NCN), Poland through the grant no. 2021/41/N/ST9/02746 . 
+
+Recent results from the project:
+<list papers>
+
+
