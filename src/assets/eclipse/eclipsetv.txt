@@ -1,0 +1,3 @@
+When there is a companion star to an eclipsing binary, the eclipses are perturbed from their periodic nature. By measuring these small perturbations, we can estimate the orbits and the mass of the companion. Further, a careful characterisation of the signal can tell us about the apsidal motion, mass transfer and spot variations in the eclipsing binary.
+
+I work with the link<http://projektsolaris.pl/en/homepage/><Solaris> (PI: Prof. M. Konacki) network of robotic telescopes to obtain ETVs for a large sample of eclipsing binaries. I have also created the photometric pipeline to extract light curves from 5 years of observations using 4 telescopes and 2 filters for over 100 targets.  

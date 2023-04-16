@@ -1,0 +1,1 @@
+Best fit spectral models (orange) for the individual stars in CHT KIC06525196. The spectra was extracted from the composite spectra using spectral disentangling methods. 

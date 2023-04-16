@@ -3,3 +3,7 @@
   src: local("SpaceGrotesk-Regular"),
     url(./fonts//SpaceGrotesk-Regular.ttf) format("ttf");
 }
+.App {
+  margin: 0;
+  padding: 0;
+}

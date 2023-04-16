@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { ReactComponent as Hot } from "./assets/Hot.svg";
 import { ReactComponent as Compact } from "./assets/Compact.svg";
 import { ReactComponent as Eclipse } from "./assets/Eclipse.svg";
+import SelectedProject from "./SelectedProject";
 
 export default function Projects() {
+  const [selectedProjectId, setSelectedProjectId] = useState(null);
   const projects = [
     {
       id: 0,
@@ -21,7 +23,7 @@ export default function Projects() {
       icon: <Eclipse style={{ height: 200, width: 200 }} />,
     },
   ];
-  return (
+  return selectedProjectId === null ? (
     <div
       style={{
         marginTop: "10%",
@@ -39,6 +41,7 @@ export default function Projects() {
             justifyContent: "center",
             alignItems: "center",
           }}
+          onClick={() => setSelectedProjectId(p.id)}
         >
           <div
             style={{
@@ -62,5 +65,10 @@ export default function Projects() {
         </div>
       ))}
     </div>
+  ) : (
+    <SelectedProject
+      setSelectedProjectId={setSelectedProjectId}
+      id={selectedProjectId}
+    />
   );
 }
