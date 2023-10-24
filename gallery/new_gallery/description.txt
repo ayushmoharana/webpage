@@ -1,0 +1,8 @@
+#IMAGE_no	text
+1	"Polish Astronomical Society meeting, Torun 2023."
+2 	"A trip to a brewery in Pennsylvania during PHOEBE workshop 2022."
+3	"With Prof. Peter Eggleton and Prof. Ludmila Kiseleva-Eggleton, Cambridge 2022."
+4	"Conference dinner at Churchill College, STARS2020 meeting, Cambridge 2022."
+5	"PLATO Stellar Science Conference, Milazzo 2023."
+6	"PHOEBE workshop, Villanova University, Villanova 2022."
+7	"European Astronomical Society meeting, Krakow 2023."
