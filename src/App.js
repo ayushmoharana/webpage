@@ -3,6 +3,7 @@ import { useState } from "react";
 import Content from "./Content";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
+import Cv from "./Cv";
 
 function App() {
   const [elements, setElements] = useState([
@@ -19,6 +20,9 @@ function App() {
       ) : null}
       {elements.find((el) => el.id === 1 && el.selected === true) ? (
         <Projects />
+      ) : null}
+      {elements.find((el) => el.id === 2 && el.selected === true) ? (
+        <Cv />
       ) : null}
     </div>
   );
