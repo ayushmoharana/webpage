@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/webpage/static/css/main.8ee0ad50.css",
-    "main.js": "/webpage/static/js/main.e71ab94a.js",
+    "main.js": "/webpage/static/js/main.cc18c306.js",
     "static/media/1.png": "/webpage/static/media/1.d1349ae3fd796b6c648c.png",
     "static/media/2.png": "/webpage/static/media/2.a45f4331162a1669622d.png",
+    "static/media/AMoharana_CV.pdf": "/webpage/static/media/AMoharana_CV.e5902c3400fd3c21fe14.pdf",
     "static/media/SpaceGrotesk-Regular.ttf": "/webpage/static/media/SpaceGrotesk-Regular.67fa42510e26f5d4733d.ttf",
     "static/media/SpaceGrotesk-Bold.ttf": "/webpage/static/media/SpaceGrotesk-Bold.96e001703fcc4898de0e.ttf",
     "static/media/Hot.svg": "/webpage/static/media/Hot.5d2b4f16878c72c7c990cb4d705a0d93.svg",
@@ -11,10 +12,10 @@
     "static/media/Eclipse.svg": "/webpage/static/media/Eclipse.bed2ad73f7f95f75f180713ddd79fc36.svg",
     "index.html": "/webpage/index.html",
     "main.8ee0ad50.css.map": "/webpage/static/css/main.8ee0ad50.css.map",
-    "main.e71ab94a.js.map": "/webpage/static/js/main.e71ab94a.js.map"
+    "main.cc18c306.js.map": "/webpage/static/js/main.cc18c306.js.map"
   },
   "entrypoints": [
     "static/css/main.8ee0ad50.css",
-    "static/js/main.e71ab94a.js"
+    "static/js/main.cc18c306.js"
   ]
 }
