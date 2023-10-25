@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webpage/static/css/main.8ee0ad50.css",
-    "main.js": "/webpage/static/js/main.ddf98ea4.js",
+    "main.css": "/webpage/static/css/main.2d5b437c.css",
+    "main.js": "/webpage/static/js/main.9a16256b.js",
     "static/media/1.png": "/webpage/static/media/1.d1349ae3fd796b6c648c.png",
     "static/media/2.png": "/webpage/static/media/2.a45f4331162a1669622d.png",
     "static/media/AMoharana_CV.pdf": "/webpage/static/media/AMoharana_CV.eea3a346289aa6347a15.pdf",
@@ -11,11 +11,11 @@
     "static/media/Compact.svg": "/webpage/static/media/Compact.7ed8feeead9f615f8df2c1e6143c1ac9.svg",
     "static/media/Eclipse.svg": "/webpage/static/media/Eclipse.bed2ad73f7f95f75f180713ddd79fc36.svg",
     "index.html": "/webpage/index.html",
-    "main.8ee0ad50.css.map": "/webpage/static/css/main.8ee0ad50.css.map",
-    "main.ddf98ea4.js.map": "/webpage/static/js/main.ddf98ea4.js.map"
+    "main.2d5b437c.css.map": "/webpage/static/css/main.2d5b437c.css.map",
+    "main.9a16256b.js.map": "/webpage/static/js/main.9a16256b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee0ad50.css",
-    "static/js/main.ddf98ea4.js"
+    "static/css/main.2d5b437c.css",
+    "static/js/main.9a16256b.js"
   ]
 }
