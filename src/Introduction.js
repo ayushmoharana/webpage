@@ -30,8 +30,8 @@ export default function Introduction() {
         in Poland. I am affiliated with the Polish Academy of Sciences and work
         at the Laboratory of Astrophysics in Torun. I come from Odisha, a state
         on the eastern coast of India. My work is focused on eclipsing binaries
-        but I like to work on anything related to observations of low-mass
-        stars. Currently, I work on low-mass Compact Heirarchical Triples.
+        but I am interested in the evolution and multiplicity of low-mass
+        stars. I am the P.I. of a project, funded by Poland's National Science Center (2021/41/N/ST9/02746), that deals with the evolution of Compact Heirarchical Triples .
       </p>
     </div>
   );
