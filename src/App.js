@@ -4,11 +4,12 @@ import Content from "./Content";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Cv from "./Cv";
+import gallery from "./gallery";
 
 function App() {
   const [elements, setElements] = useState([
     { id: 0, name: "Home", selected: true },
-    { id: 1, name: "Projects", selected: false },
+    { id: 1, name: "Research", selected: false },
     { id: 2, name: "CV", selected: false },
     { id: 3, name: "Gallery", selected: false },
   ]);
@@ -23,6 +24,9 @@ function App() {
       ) : null}
       {elements.find((el) => el.id === 2 && el.selected === true) ? (
         <Cv />
+      ) : null}
+      {elements.find((el) => el.id === 3 && el.selected === true) ? (
+        <gallery />
       ) : null}
     </div>
   );

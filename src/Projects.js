@@ -12,16 +12,17 @@ export default function Projects() {
       name: "Compact Hierarchical Triples",
       icon: <Compact style={{ height: 250, width: 250 }} />,
     },
-    {
+        {
       id: 1,
-      name: "Hot stars in globular clusters",
-      icon: <Hot style={{ height: 200, width: 200 }} />,
-    },
-    {
-      id: 2,
       name: "Eclipse timing variations",
       icon: <Eclipse style={{ height: 200, width: 200 }} />,
     },
+    {
+      id: 2,
+      name: "Hot stars in globular clusters",
+      icon: <Hot style={{ height: 200, width: 200 }} />,
+    },
+
   ];
   return selectedProjectId === null ? (
     <div
