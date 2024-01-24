@@ -1,1 +1,1 @@
-Website: https://ayushmoharana.github.io/webpage/
+Website: https://ayushmoharana24.wixsite.com/mysite
